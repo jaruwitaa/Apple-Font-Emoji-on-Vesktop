@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Apple Color Emoji";
+  src: url("https://github.com/samuelngs/apple-emoji-ttf/releases/download/macos-26-20260219-2aa12422/AppleColorEmoji-Linux.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SF Thonburi";
+  src: url("https://github.com/jaruwitaa/Apple-Thonburi-ThaiEng-Font/releases/download/67/SFThonburi-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SF Thonburi";
+  src: url("https://github.com/jaruwitaa/Apple-Thonburi-ThaiEng-Font/releases/download/67/SFThonburi-Semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "SF Thonburi";
+  src: url("https://github.com/jaruwitaa/Apple-Thonburi-ThaiEng-Font/releases/download/67/SFThonburi-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+:root {
+  --font-primary: "SF Thonburi", "Apple Color Emoji", sans-serif !important;
+}
+
+body,
+.markup_f8f345,
+.contents_c19a55,
+.messageContent_f9f2ca,
+.text-sm-normal__95a78,
+.text-md-normal__95a78 {
+  font-family:
+    "SF Thonburi",
+    "Apple Color Emoji",
+    sans-serif !important;
+}
